@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiTemperatureMonitoringApp", "PiTemperatureMonitoringApp.csproj", "{5ACCD8A8-8BD8-49C6-9D53-7927D96DA0B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PiTemperatureLogger", "..\PiTemperatureLogger\PiTemperatureLogger.csproj", "{83559CC0-28CB-48CB-9910-1AED6695353B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,26 +45,6 @@ Global
 		{5ACCD8A8-8BD8-49C6-9D53-7927D96DA0B4}.Release|x86.ActiveCfg = Release|x86
 		{5ACCD8A8-8BD8-49C6-9D53-7927D96DA0B4}.Release|x86.Build.0 = Release|x86
 		{5ACCD8A8-8BD8-49C6-9D53-7927D96DA0B4}.Release|x86.Deploy.0 = Release|x86
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Debug|ARM.Build.0 = Debug|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Debug|ARM64.ActiveCfg = Debug|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Debug|ARM64.Build.0 = Debug|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Debug|x64.Build.0 = Debug|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Debug|x86.Build.0 = Debug|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Release|ARM.ActiveCfg = Release|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Release|ARM.Build.0 = Release|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Release|ARM64.ActiveCfg = Release|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Release|ARM64.Build.0 = Release|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Release|x64.ActiveCfg = Release|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Release|x64.Build.0 = Release|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Release|x86.ActiveCfg = Release|Any CPU
-		{83559CC0-28CB-48CB-9910-1AED6695353B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
