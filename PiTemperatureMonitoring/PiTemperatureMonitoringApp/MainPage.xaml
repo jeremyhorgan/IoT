@@ -7,7 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Unloaded="Page_Unloaded">
-    
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
@@ -21,6 +21,14 @@
         <Border Background="#2f5cb6"/>
         <Border Grid.Column ="1" Grid.Row ="0" Background="#1f3d7a"/>
         <Border Grid.Row="1" Grid.ColumnSpan="2" Background="#152951"/>
+
+        <ListView Name="TemperatureListView" Margin="10,10,10,10">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Foreground="White" Text="{Binding Message}"></TextBlock>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 
         <StackPanel Grid.Column="1" Margin="40,0,0,0" VerticalAlignment="Center">
             <TextBlock Name="TemperatureNow" Foreground="White" FontSize="25" Text="Now: 0° C"/>
